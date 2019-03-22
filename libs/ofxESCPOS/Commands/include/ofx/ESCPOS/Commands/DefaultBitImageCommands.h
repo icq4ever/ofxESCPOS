@@ -36,7 +36,7 @@ public:
                                    float ditherThreshold = 0.5,
                                    float ditherQuantWeight = 0.125,
                                    BaseCodes::PrintResolution printResolution = BaseCodes::RESOLUTION_24_DOTS_DOUBLE_DENSITY,
-                                   int printHeadWidth = 576,
+                                   int printHeadWidth = 384,
                                    int printHeadHeight = 24);
 
     virtual std::size_t setPageModePrintArea(int x, int y, int width, int height);
